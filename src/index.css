@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+display: flex;
+}
+.board{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.squareItem{
+  border:solid 1px;
+  width: 20px;
+  height: 20px ;
+}
